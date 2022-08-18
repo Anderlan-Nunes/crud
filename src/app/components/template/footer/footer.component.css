@@ -1,0 +1,13 @@
+.footer {
+    position: fixed;
+    bottom: 0; /*pega o footer e coloca la em baixo*/
+
+    display: flex;
+    justify-content: flex-end; /*colocou o texto no canto direito . isso faz com q o texto fique no final da linha do eixo princial*/
+
+}
+
+.footer > span{ /*o > eh pra ele aplicar no span q ta direto se nao ele aplica no "3" outro span tambem*/
+    font-size: 1.1rem;
+    font-weight: 300;
+}

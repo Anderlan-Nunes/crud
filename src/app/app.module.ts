@@ -23,6 +23,10 @@ import { HomeComponent } from './views/home/home.component';
 import { ProductCrudComponent } from './views/product-crud/product-crud.component';
 import { ProductCerateComponent } from './components/product/product-cerate/product-cerate.component';
 import { ProductReadComponent } from './components/product/product-read/product-read.component';
+import { ProductRead2Component } from './components/product/product-read2/product-read2.component';
+import { MatTableModule } from '@angular/material/table';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatSortModule } from '@angular/material/sort';
 
 
 
@@ -36,6 +40,7 @@ import { ProductReadComponent } from './components/product/product-read/product-
     ProductCrudComponent,
     ProductCerateComponent,
     ProductReadComponent,
+    ProductRead2Component,
   ],
   imports: [
     BrowserModule,
@@ -50,7 +55,10 @@ import { ProductReadComponent } from './components/product/product-read/product-
     HttpClientModule,
     FormsModule,
     MatInputModule,
-    MatFormFieldModule
+    MatFormFieldModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatSortModule
   ],
   providers: [],
   bootstrap: [AppComponent]

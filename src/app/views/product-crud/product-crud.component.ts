@@ -1,3 +1,4 @@
+/**<!--compontente principal do cadastro de produto e dento dele eu vou referenciar os outros componentes --> */
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 

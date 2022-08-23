@@ -11,7 +11,7 @@ import { Product } from './product.model';
 })
 export class ProductService {
 
-  baseUrl= "http://localhost:3001/products";
+  baseAPIUrl= "http://localhost:3001/products";
 
   constructor(private snackBar: MatSnackBar, private http: HttpClient) { }
 
@@ -24,6 +24,11 @@ export class ProductService {
   }
 
   create(product: Product): Observable<Product>{
-    return this.http.post<Product>(this.baseUrl, product)
+    return this.http.post<Product>(this.baseAPIUrl, product)
+  }
+
+  read(): Observable<Product[]> { // retorna uma lista de produto da api metodo eh consumido dentro product-read
+    return this.http.get<Product[]>(this.baseAPIUrl)
+
   }
 }

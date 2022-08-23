@@ -22,6 +22,7 @@ import { FooterComponent } from './components/template/footer/footer.component';
 import { HomeComponent } from './views/home/home.component';
 import { ProductCrudComponent } from './views/product-crud/product-crud.component';
 import { ProductCerateComponent } from './components/product/product-cerate/product-cerate.component';
+import { ProductReadComponent } from './components/product/product-read/product-read.component';
 
 
 
@@ -34,6 +35,7 @@ import { ProductCerateComponent } from './components/product/product-cerate/prod
     HomeComponent,
     ProductCrudComponent,
     ProductCerateComponent,
+    ProductReadComponent,
   ],
   imports: [
     BrowserModule,

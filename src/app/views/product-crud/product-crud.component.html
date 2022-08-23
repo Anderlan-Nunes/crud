@@ -1,4 +1,6 @@
-<button mat-raised-button (click)="navigateToProductCreate()">
+<!--compontente principal do cadastro de produto e dento dele eu vou referenciar os outros componentes -->
+<button mat-raised-button (click)="navigateToProductCreate()" color="primary">
     Novo Produto
 </button>
+<app-product-read></app-product-read>
 <!--quando click no botao novo produto ele manda para url do /products/create-->

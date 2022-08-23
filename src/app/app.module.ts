@@ -21,7 +21,7 @@ import { NavComponent } from './components/template/nav/nav.component';
 import { FooterComponent } from './components/template/footer/footer.component';
 import { HomeComponent } from './views/home/home.component';
 import { ProductCrudComponent } from './views/product-crud/product-crud.component';
-import { ProductCerateComponent } from './components/product/product-cerate/product-cerate.component';
+import { ProductCreateComponent } from './components/product/product-create/product-create.component';
 import { ProductReadComponent } from './components/product/product-read/product-read.component';
 import { ProductRead2Component } from './components/product/product-read2/product-read2.component';
 import { MatTableModule } from '@angular/material/table';
@@ -38,7 +38,7 @@ import { MatSortModule } from '@angular/material/sort';
     NavComponent,
     HomeComponent,
     ProductCrudComponent,
-    ProductCerateComponent,
+    ProductCreateComponent,
     ProductReadComponent,
     ProductRead2Component,
   ],

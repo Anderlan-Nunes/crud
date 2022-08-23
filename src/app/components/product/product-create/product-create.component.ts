@@ -5,11 +5,11 @@ import { Product } from '../product.model';
 import { ProductService } from '../product.service';
 
 @Component({
-  selector: 'app-product-cerate',
-  templateUrl: './product-cerate.component.html',
-  styleUrls: ['./product-cerate.component.css']
+  selector: 'app-product-create',
+  templateUrl: './product-create.component.html',
+  styleUrls: ['./product-create.component.css']
 })
-export class ProductCerateComponent implements OnInit {
+export class ProductCreateComponent implements OnInit {
 // colocou que eh do tipo Product só para o typescript validar os parametos nao eh obrigatorio o tipo Produtct
   product: Product= {
     name: '',

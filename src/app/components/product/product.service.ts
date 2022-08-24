@@ -31,4 +31,14 @@ export class ProductService {
     return this.http.get<Product[]>(this.baseAPIUrl)
 
   }
+//nao precisa ser number pq vem da url
+  readyById(id: string): Observable<Product> {
+    const url = `${this.baseAPIUrl}/${id}`;
+    return this.http.get<Product>(url)
+  }
+
+  update(product: Product): Observable<Product> {
+    const url = `${this.baseAPIUrl}/${product.id}`;
+    return this.http.put<Product>(url, product)
+  }
 }

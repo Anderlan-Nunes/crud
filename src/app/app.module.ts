@@ -30,6 +30,7 @@ import { ProductRead2Component } from './components/product/product-read2/produc
 // para deixar em portugues
 import { registerLocaleData } from '@angular/common';
 import localePt from '@angular/common/locales/pt';
+import { ProductUpdateComponent } from './components/product/product-update/product-update.component';
 registerLocaleData(localePt)
 
 @NgModule({
@@ -43,6 +44,7 @@ registerLocaleData(localePt)
     ProductCreateComponent,
     ProductReadComponent,
     ProductRead2Component,
+    ProductUpdateComponent,
   ],
   imports: [
     BrowserModule,

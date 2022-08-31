@@ -11,4 +11,13 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     vertical-align: middle;
 }
 
+.msg-success { /*mudando a mensagem de erro*/
+    background-color: #28a745;
+    color: #fff;
+}
+
+.msg-error { /*mudando a mensagem de erro*/
+    background-color: #e35e6b;
+    color: #fff;
+}
 

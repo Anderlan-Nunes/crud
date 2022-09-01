@@ -1,3 +1,4 @@
+// service serve para comunicaçao (com banco ou entre componentes)
 import { HttpClient } from '@angular/common/http';
 import { catchError, EMPTY, map, Observable, pipe } from 'rxjs';
 import { Injectable } from '@angular/core';
